@@ -70,7 +70,7 @@ import (
 )
 
 func main() {
-	dsn := "host=localhost user=postgres password=pepega90 dbname=storm_db port=5432 sslmode=disable TimeZone=Asia/Jakarta"
+	dsn := "host=localhost user=postgres password=postgres dbname=storm_db port=5432 sslmode=disable"
 	db, err := storm.New("postgres", dsn)
 	if err != nil {
 		log.Fatal("Storm is not initiated:", err.Error())

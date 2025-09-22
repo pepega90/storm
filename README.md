@@ -181,12 +181,6 @@ err := db.
 if err != nil {
 	log.Fatal("Error paginating users:", err.Error())
 }
-
-fmt.Println("Page:", page)
-fmt.Println("Page Size:", pageSize)
-fmt.Println("Total Users:", total)
-fmt.Println("Total Pages:", totalPages)
-fmt.Println("User Data:", users)
 ```
 
 Storm automatically calculates:

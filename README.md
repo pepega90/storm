@@ -90,8 +90,8 @@ func main() {
 
 ```go
 user := &models.User{
-	Name:  "dikha",
-	Email: "dikha@gmail.com",
+	Name:  "aji",
+	Email: "aji@handsome.com",
 }
 err := db.Insert(user)
 if err != nil {
@@ -106,8 +106,8 @@ if err != nil {
 ```go
 user := &models.User{
 	ID:    5,
-	Name:  "ammar",
-	Email: "ammar@example.com",
+	Name:  "aji",
+	Email: "aji@handsome.com",
 }
 err := db.Update(user)
 if err != nil {

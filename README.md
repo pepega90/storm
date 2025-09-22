@@ -53,6 +53,7 @@ type User struct {
 
 * Use `storm:"pk"` for the primary key.
 * Use `storm:"column:xxx"` to map struct fields to DB columns.
+* You can omit `column:xxx` it will map to the struct field name.
 * Table name is automatically pluralized (`User` → `users`).
 
 ---

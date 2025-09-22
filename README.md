@@ -1,5 +1,3 @@
-Here's the updated README.md with those specific points highlighted:
-
 ---
 
 # Storm - Simple Tiny ORM for Go
@@ -222,5 +220,3 @@ Storm automatically calculates:
 MIT License © 2025 [pepega90](https://github.com/pepega90)
 
 ---
-
-Now it clearly highlights the built-in pagination feature and explicitly states the current PostgreSQL-only support!
